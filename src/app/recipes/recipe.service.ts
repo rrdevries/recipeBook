@@ -1,3 +1,3 @@
-export class Recipe {
+export class RecipeService {
   
 }
