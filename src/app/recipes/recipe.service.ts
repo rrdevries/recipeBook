@@ -9,22 +9,27 @@ export class RecipeService {
     new Recipe(
       'A tasty schnitzel', 
       'Schnitzel has never been this good', 
-      'https://img.taste.com.au/62w0bkp3/w720-h480-cfill-q80/taste/2018/02/mar-18_creamy-fettuccine-with-chicken-3000x2000-135690-1.jpg',
+      'https://st.depositphotos.com/1003814/3360/i/450/depositphotos_33608355-stock-photo-pork-chop-french-fries-and.jpg',
       [
-        new Ingredient('Meat', 1),
-        new Ingredient('Lemon', 1),
-        new Ingredient('Egg', 2),
+        new Ingredient('Veal schnitzel', 2),
+        new Ingredient('Egg', 1),
+        new Ingredient('Paneermeel', 1),
         new Ingredient('French Fries', 20),
+        new Ingredient('Flour', 1),
+        new Ingredient('Lemon', 0.5)
       ]
     ),
     new Recipe(
-      'Chicker Parmezan', 
+      'Chicken Parmesan', 
       'Juicy chicken with a crispy skin', 
-      'https://img.taste.com.au/62w0bkp3/w720-h480-cfill-q80/taste/2018/02/mar-18_creamy-fettuccine-with-chicken-3000x2000-135690-1.jpg',
+      'https://thecozyapron.com/wp-content/uploads/2019/03/chicken-parmesan_thecozyapron_1.jpg',
       [
-         new Ingredient('Chicken', 1),
-         new Ingredient('Parmezan cheese', 1),
-          new Ingredient('Milk', 2),
+        new Ingredient('Chicken breast', 2),
+        new Ingredient('Egg', 2),
+        new Ingredient('Flour', 2),
+        new Ingredient('Parmesan cheese', 1),
+        new Ingredient('Mozerella cheese', 1),
+        new Ingredient('Spaghetti', 1)
       ]
       )
   ];
